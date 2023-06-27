@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> 
+    <script defer src="main.js"></script>
+    <title>Crypto Website</title>
+</head>
+
+<body class="parallax">
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark p-5 rounded fixed-top">
+            <div class="container-xxl">
+                <a href="#" class="navbar-brand">
+                    <span class="fw-bold h1 p-2" id="navbar-brand">Crypto</span>
+                </a>
+                <div class="links" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white h2" data-section="homeSection">Home Section</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white h2" data-section="reportSection">Live Report</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white h2" data-section="aboutSection">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="input-group justify-content-end" style="width: 15rem">
+                    <input type="search" class="form-control rounded" placeholder="Search Coin" id="searchBox" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn text-white" id="searchButton">Search</button>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main id="main" class="container-lg p-5"></main>
+</body>
+</html>
+
+
+

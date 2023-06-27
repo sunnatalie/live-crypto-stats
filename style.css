@@ -1,0 +1,102 @@
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.loading-spinner {
+    width: 70px;
+    height: 70px;
+    border: 10px solid #f3f3f3;
+    border-top: 10px lightblue;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+
+.loaderContainer{
+    background: white; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/images/erik-eastman-4HG5hlhmZg8-unsplash.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,.3);
+}
+
+#navbar-brand:hover{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt white;
+    outline: none;
+    transition: .1s;
+}
+
+.nav-link:hover{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt white;
+    outline: none;
+    transition: .2s;
+}
+
+#searchButton:hover{
+    box-shadow: 0 0 0 1pt white;
+}
+
+#searchButton{
+    margin-left: 4px;
+}
+
+#main{
+    margin-top: 150px;
+}
+
+#aboutPhoto{
+    width:300px;
+}
+
+#chartContainer{
+    width:100%; 
+    height:500px
+}
+
+.coin-image{
+    width:30px;
+}
+
+.form-check-input{
+    transform: scale(1.5);
+}
+
+.more-info{
+    width: 100px;
+}
