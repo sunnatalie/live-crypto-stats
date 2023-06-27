@@ -315,7 +315,7 @@ $(document).ready(function(){
 
         const content = `
             <div class="row container-lg justify-content-center">
-                <img src="/images/IMG_6113.jpeg" alt="My dog, Moutoe" id="aboutPhoto" class="col-lg-6">
+                <img src="./images/IMG_6113.jpeg" alt="My dog, Moutoe" id="aboutPhoto" class="col-lg-6">
                 <div class="bg-white text-black opacity-75 p-3 col-lg-6">
                     This crypto website was made to display 50 various cryptocurrencies currently dominating the crypto industry today. You can find the latest data by clicking "more info" on any cryptocurrency you like. Additionally, if you would like to see the ups and downs of a cryptocurrency's value in real time, select a few coins and check out the live report section. 
                     <br><br> -Natalie
